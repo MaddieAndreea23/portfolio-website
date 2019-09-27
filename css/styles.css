@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .profile {
@@ -35,18 +35,19 @@ body {
 
 .page-header__item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 200px;
-          flex: 0 1 200px;
+  -ms-flex: 0 1 200px;
+  flex: 0 1 200px;
 }
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-align: right;
 }
 
 .about_info {
+  color: inherit;
   background-color: #99ffff;
   text-align: center;
 }
@@ -81,59 +82,59 @@ body {
 }
 .sun {
   -webkit-animation: 4s color-change infinite alternate linear;
-          animation: 4s color-change infinite alternate linear;
+  animation: 4s color-change infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-move {
   from {
     -webkit-transform: translate(446px, 48px);
-            transform: translate(446px, 48px);
+    transform: translate(446px, 48px);
   }
   to {
     -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
   }
 }
 
 @keyframes cloud-move {
   from {
     -webkit-transform: translate(446px, 48px);
-            transform: translate(446px, 48px);
+    transform: translate(446px, 48px);
   }
   to {
     -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
   }
 }
 .small-cloud {
   -webkit-animation: 35s cloud-move infinite alternate linear;
-          animation: 35s cloud-move infinite alternate linear;
+  animation: 35s cloud-move infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(0, 50px);
-            transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
   to {
     -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
   }
 }
 
 @keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(0, 50px);
-            transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
   to {
     -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
   }
 }
 .big-cloud {
   -webkit-animation: 30s cloud-move-reverse infinite alternate linear;
-          animation: 30s cloud-move-reverse infinite alternate linear;
+  animation: 30s cloud-move-reverse infinite alternate linear;
 }
 
 table {
@@ -161,6 +162,7 @@ form {
 
 h1, h2, h3 {
   color: Red;
+  background-color: inherit;
   text-align: center;
 }
 
@@ -170,18 +172,21 @@ h4 {
 
 p {
   color: #007267;
+  background-color: inherit;
 }
 
 .intro {
   color: #2f434b;
+  background-color: inherit;
 }
 
-p1 {
+h5 {
   text-decoration: underline;
 }
 
 p3 {
   color: #007267;
+  background-color: inherit;
 }
 
 Contact {
@@ -189,15 +194,18 @@ Contact {
 }
 
 #contact-form {
+  color: inherit;
   background-color: #e6ffff;
 }
 
 .standard-label {
   color: #007267;
+  background-color: inherit;
 }
 
 a {
   color: #2f434b;
+  background-color: inherit;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -206,6 +214,7 @@ a {
 a:visited {
   /* visited link */
   color: #007267;
+  background-color: inherit;
 }
 a:hover, a:focus {
   /* No underlining when hovering over a link */
@@ -214,6 +223,7 @@ a:hover, a:focus {
 a:active {
   /* selected link */
   color: #2f434b;
+  background-color: inherit;
 }
 
 button {
@@ -255,6 +265,7 @@ button:hover, button:focus {
 }
 
 .grid__item {
+  color: inherit;
   background-color: black;
   padding: 20px;
   width: auto;
@@ -274,8 +285,8 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -287,7 +298,7 @@ footer {
   .page_header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
