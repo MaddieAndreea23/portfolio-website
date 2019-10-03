@@ -48,7 +48,7 @@ module.exports = {
     "comment-empty-line-before": [ "always", {
       except: ["first-nested"],
       ignore: ["stylelint-commands"],
-    } ],
+    } ], 
     "comment-whitespace-inside": "always",
     "custom-property-empty-line-before": [ "always", {
       except: [
@@ -117,7 +117,7 @@ module.exports = {
     "selector-descendant-combinator-no-non-space": true,
     "selector-list-comma-newline-after": "always",
     "selector-list-comma-space-before": "never",
-    "selector-max-empty-lines": 0, 
+    "selector-max-empty-lines": 0,
     "selector-pseudo-class-case": "lower",
     "selector-pseudo-class-parentheses-space-inside": "never",
     "selector-pseudo-element-case": "lower",

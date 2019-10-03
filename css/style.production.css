@@ -1,9 +1,9 @@
-*{
+* {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.profile{
+.profile {
   max-width: 700px;
   margin: auto;
 }
@@ -16,13 +16,13 @@
   border-radius: 50%;
 }
 
-body{
-  font-family: 'Roboto Mono', monospace;
+body {
+  font-family: "Roboto Mono", monospace;
   font-weight: 400;
   font-variant: small-caps;
   font-style: italic;
   text-decoration: none;
-  line-height: 2.0;
+  line-height: 2;
 }
 
 .page-header {
@@ -46,13 +46,13 @@ body{
   text-align: right;
 }
 
-.about_info{
+.about_info {
   color: inherit;
   background-color: #99ffff;
   text-align: center;
 }
 
-.amsterdam{
+.amsterdam {
   display: block;
   margin: auto;
 }
@@ -68,7 +68,6 @@ body{
     fill: #f76414;
   }
 }
-
 @keyframes color-change {
   0% {
     fill: #edc655;
@@ -80,7 +79,6 @@ body{
     fill: #f76414;
   }
 }
-
 .sun {
   -webkit-animation: 4s color-change infinite alternate linear;
   animation: 4s color-change infinite alternate linear;
@@ -96,7 +94,6 @@ body{
     transform: translate(100px, 48px);
   }
 }
-
 @keyframes cloud-move {
   from {
     -webkit-transform: translate(446px, 48px);
@@ -107,7 +104,6 @@ body{
     transform: translate(100px, 48px);
   }
 }
-
 .small-cloud {
   -webkit-animation: 35s cloud-move infinite alternate linear;
   animation: 35s cloud-move infinite alternate linear;
@@ -123,7 +119,6 @@ body{
     transform: translate(100px, 48px);
   }
 }
-
 @keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(0, 50px);
@@ -134,7 +129,6 @@ body{
     transform: translate(100px, 48px);
   }
 }
-
 .big-cloud {
   -webkit-animation: 30s cloud-move-reverse infinite alternate linear;
   animation: 30s cloud-move-reverse infinite alternate linear;
@@ -151,13 +145,14 @@ th {
   border: 4px solid #589bff;
 }
 
-form{
+form {
   text-align: center;
 }
 
 .navigation-list {
   list-style-type: none;
 }
+
 .navigation-list li {
   display: inline-block;
   margin-right: 50px;
@@ -169,7 +164,7 @@ h1, h2, h3 {
   text-align: center;
 }
 
-h4{
+h4 {
   text-decoration: underline;
 }
 
@@ -179,21 +174,17 @@ p {
 }
 
 .intro {
-  color:  #2f434b;
+  color: #2f434b;
   background-color: inherit;
 }
 
-h5{
+h5 {
   text-decoration: underline;
 }
 
 p3 {
-  color:  #007267;
+  color: #007267;
   background-color: inherit;
-}
-
-Contact{
-  text-align: center;
 }
 
 #contact-form {
@@ -214,27 +205,19 @@ a {
   display: inline-flex;
 }
 
-
-a {
-  &:visited {
-    /* visited link */
-    color: #007267;
-    background-color: inherit;
-  }
-
-  &:hover, &:focus {
-    /* No underlining when hovering over a link */
-    text-decoration: none;
-  }
-
-  &:active {
-    /* selected link */
-    color: #2f434b;
-    background-color: inherit;
-  }
+a:visited {
+  color: #007267;
+  background-color: inherit;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+a:active {
+  color: #2f434b;
+  background-color: inherit;
 }
 
-button{
+button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -248,11 +231,10 @@ button{
   -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
   margin: 10px 5px;
-
-  &:hover, &:focus {
-    cursor: pointer;
-    opacity: 0.8;
-  }
+}
+button:hover, button:focus {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .button__secondary {
@@ -260,7 +242,6 @@ button{
   color: #2f434b;
 }
 
-/*Grid fallback. Add also width= auto to grid__item*/
 .grid__item {
   display: inline-block;
   width: 33%;
@@ -283,10 +264,10 @@ button{
 footer {
   font-size: 24px;
   text-align: center;
-  line-height: 2.0;
+  line-height: 2;
 }
 
-.page-footer{
+.page-footer {
   margin-top: 100px;
   clear: both;
   display: -webkit-box;
@@ -299,7 +280,7 @@ footer {
   text-align: center;
 }
 
-@media all and (min-width: 600px) and (max-width: 900px){
+@media all and (min-width: 600px) and (max-width: 900px) {
   h1 {
     font-size: 22px;
   }
