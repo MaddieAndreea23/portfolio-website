@@ -48,7 +48,7 @@ module.exports = {
     "comment-empty-line-before": [ "always", {
       except: ["first-nested"],
       ignore: ["stylelint-commands"],
-    } ], 
+    } ],
     "comment-whitespace-inside": "always",
     "custom-property-empty-line-before": [ "always", {
       except: [

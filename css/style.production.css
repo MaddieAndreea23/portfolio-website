@@ -4,6 +4,7 @@
 }
 
 .profile {
+  background-color: #0b0c10;
   max-width: 700px;
   margin: auto;
 }
@@ -17,6 +18,7 @@
 }
 
 body {
+  background-color: #0b0c10;
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
   font-variant: small-caps;
@@ -48,7 +50,7 @@ body {
 
 .about_info {
   color: inherit;
-  background-color: #99ffff;
+  background-color: inherit;
   text-align: center;
 }
 
@@ -135,6 +137,7 @@ body {
 }
 
 table {
+  color: #f8e9a1;
   display: table;
   border-spacing: 5px;
   text-align: center;
@@ -158,18 +161,21 @@ form {
   margin-right: 50px;
 }
 
-h1, h2, h3 {
-  color: Red;
+h1,
+h2,
+h3 {
+  color: #66fcf1;
   background-color: inherit;
   text-align: center;
 }
 
 h4 {
+  color: #eae7dc;
   text-decoration: underline;
 }
 
 p {
-  color: #007267;
+  color: #c5c6c7;
   background-color: inherit;
 }
 
@@ -179,17 +185,13 @@ p {
 }
 
 h5 {
+  color: #eae7dc;
   text-decoration: underline;
-}
-
-p3 {
-  color: #007267;
-  background-color: inherit;
 }
 
 #contact-form {
   color: inherit;
-  background-color: #e6ffff;
+  background-color: inherit;
 }
 
 .standard-label {
@@ -198,7 +200,7 @@ p3 {
 }
 
 a {
-  color: #2f434b;
+  color: #f8e9a1;
   background-color: inherit;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -209,12 +211,17 @@ a:visited {
   color: #007267;
   background-color: inherit;
 }
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
 }
 a:active {
   color: #2f434b;
   background-color: inherit;
+}
+
+.contact_info {
+  color: #c5c6c7;
 }
 
 button {
@@ -232,7 +239,8 @@ button {
   transition: 0.2s opacity;
   margin: 10px 5px;
 }
-button:hover, button:focus {
+button:hover,
+button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
@@ -256,12 +264,13 @@ button:hover, button:focus {
 
 .grid__item {
   color: inherit;
-  background-color: black;
+  background-color: #116466;
   padding: 20px;
   width: auto;
 }
 
 footer {
+  background-color: #0b0c10;
   font-size: 24px;
   text-align: center;
   line-height: 2;
