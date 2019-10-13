@@ -54,94 +54,12 @@ body {
   text-align: center;
 }
 
-.amsterdam {
-  display: block;
-  margin: auto;
-}
-
-@-webkit-keyframes color-change {
-  0% {
-    fill: #edc655;
-  }
-  50% {
-    fill: #fcffad;
-  }
-  100% {
-    fill: #f76414;
-  }
-}
-@keyframes color-change {
-  0% {
-    fill: #edc655;
-  }
-  50% {
-    fill: #fcffad;
-  }
-  100% {
-    fill: #f76414;
-  }
-}
-.sun {
-  -webkit-animation: 4s color-change infinite alternate linear;
-  animation: 4s color-change infinite alternate linear;
-}
-
-@-webkit-keyframes cloud-move {
-  from {
-    -webkit-transform: translate(446px, 48px);
-    transform: translate(446px, 48px);
-  }
-  to {
-    -webkit-transform: translate(100px, 48px);
-    transform: translate(100px, 48px);
-  }
-}
-@keyframes cloud-move {
-  from {
-    -webkit-transform: translate(446px, 48px);
-    transform: translate(446px, 48px);
-  }
-  to {
-    -webkit-transform: translate(100px, 48px);
-    transform: translate(100px, 48px);
-  }
-}
-.small-cloud {
-  -webkit-animation: 35s cloud-move infinite alternate linear;
-  animation: 35s cloud-move infinite alternate linear;
-}
-
-@-webkit-keyframes cloud-move-reverse {
-  from {
-    -webkit-transform: translate(0, 50px);
-    transform: translate(0, 50px);
-  }
-  to {
-    -webkit-transform: translate(100px, 48px);
-    transform: translate(100px, 48px);
-  }
-}
-@keyframes cloud-move-reverse {
-  from {
-    -webkit-transform: translate(0, 50px);
-    transform: translate(0, 50px);
-  }
-  to {
-    -webkit-transform: translate(100px, 48px);
-    transform: translate(100px, 48px);
-  }
-}
-.big-cloud {
-  -webkit-animation: 30s cloud-move-reverse infinite alternate linear;
-  animation: 30s cloud-move-reverse infinite alternate linear;
-}
-
 table {
   color: #f8e9a1;
   display: table;
   border-spacing: 5px;
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
 }
 
 th {
